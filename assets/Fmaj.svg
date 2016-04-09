@@ -1,4 +1,4 @@
-<svg id="Fmaj" class="chords" viewBox="0 0 240 110" preserveAspectRatio="xMidYMid slice" width="660" height="330">
+<svg id="Fmaj" class="chords" viewBox="0 0 240 110" preserveAspectRatio="xMidYMid slice" width="720" height="330">
 <rect x="0" y="0" width="240" height="110" fill="#ffffff"/>
 <rect x="20" y="20" width="200" height="60" fill="#ffffff" stroke="maroon" stroke-width="0.5"/>
 <line x1="19" y1="20" x2="19" y2="80" fill="transparent" stroke="maroon" stroke-width="1"/>
