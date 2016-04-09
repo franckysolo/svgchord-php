@@ -30,7 +30,7 @@ echo $grid->render();
 <?php 
 $grid  = new Grid($driver);
 $chord  = new Chord('Dmaj');
-$chord->put('2:2', '3:3', '2:1', '0:o', '0:x', '0:x');
+$chord->put('2:2', '3:3', '2:1', '0:o', '0:o', '0:x');
 $grid->addChord($chord);
 echo $grid->render();
 ?>
