@@ -37,7 +37,8 @@ The finger parameter only accept :
  * h = half barred (not yet implemented)
  * f = full barred
 
-![Cmaj](<img src="https://github.com/franckysolo/svgchord-php/assets/Cmaj.svg">)
+![Cmaj](https://github.com/franckysolo/svgchord-php/assets/Cmaj.svg)
+<img src="https://github.com/franckysolo/svgchord-php/assets/Cmaj.svg">
 
 ## Full barred chord
 The create full barred chord you must user the f parameter for finger, an examle :
