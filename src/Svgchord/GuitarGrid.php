@@ -1,6 +1,19 @@
 <?php
+/**
+ * Svgchord (Drawing SVG guitar chords with PHP)
+ *
+ * @version 1.0.0
+ * @author franckysolo <franckysolo@gmail.com>
+ */
 namespace Svgchord;
-
+/**
+ * @category Svgchord - Drawing SVG guitar chords with PHP
+ * @version 1.0.0
+ * @author franckysolo <franckysolo@gmail.com>
+ * @license http://creativecommons.org/licenses/by-sa/3.0/  CC BY-SA 3.0
+ * @package Svgchord
+ * @filesource  GuitarGrid.php
+ */
 class GuitarGrid {
 
     /**
@@ -68,8 +81,7 @@ class GuitarGrid {
                         ->stroke('black', $i / 100)
                         ->draw();
             array_push($this->svg, $svg);
-        }
-       
+        }      
     }
     
     /**
