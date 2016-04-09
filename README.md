@@ -41,7 +41,7 @@ The finger parameter only accept :
  * f = full barred
 
 ## Full barred chord
-The create full barred chord you must user the f parameter for finger, an examle :
+The create full barred chord you must user the f parameter for finger, an example :
 
 ```php
 <?php
@@ -52,8 +52,11 @@ $grid->addChord($chord);
 echo $grid->render();
 ?>
 ```
+The result in svg  
+![Screenshot](assets/Fmaj.png)
+
 ## Starting over first case
-By default svgchord start at the first case of the guitar grid, but you ca use the second parameter of Chord classes like this :
+By default svgchord start at the first case of the guitar grid, but you can use the second parameter of Chord class like this :
 ```php
 <?php
 $chord  = new Chord('Emin7', 5); // we start at 5th case
@@ -61,3 +64,4 @@ $chord->put('4:4', '2:2', '1:f', '3:3', '1:f', '1:f');
 $grid->addChord($chord);
 echo $grid->render();
  ```
+![Screenshot](assets/Emin7.png)
