@@ -123,8 +123,19 @@ class GuitarGrid {
      */
     public function drawMute($cx, $cy) {
         $svg = $this->driver->circle($cx, $cy, 2)
-                    ->stroke('black')
+                    ->stroke('transparent')
                     ->fill('transparent')
+                    ->title('Ne pas jouer')
+                    ->draw();
+        array_push($this->svg, $svg);
+        $svg = $this->driver->line($cx - 2, $cy + 2, $cx + 2, $cy - 2)
+                    ->fill('transparent')
+                    ->stroke('black', 0.5)
+                    ->draw();
+        array_push($this->svg, $svg);
+        $svg = $this->driver->line($cx + 2, $cy + 2, $cx - 2, $cy - 2)
+                    ->fill('transparent')
+                    ->stroke('black', 0.5)
                     ->draw();
         array_push($this->svg, $svg);
     }
