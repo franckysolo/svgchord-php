@@ -17,6 +17,9 @@ $grid->addChord($chord);
 echo $grid->render();
  ?>
 ```
+The result in svg  
+![Screenshot](assets/Cmaj.png)
+
 The put method is setting each guitar string starting E acute to E grave with case number and finger number by grouping parameter with this format :
 
 ```
@@ -36,9 +39,6 @@ The finger parameter only accept :
  * x = not play chord
  * h = half barred (not yet implemented)
  * f = full barred
-
-![Cmaj](https://raw.githubusercontent.com/franckysolo/svgchord-php/master/assets/Cmaj.svg)
-<img src="https://raw.githubusercontent.com/franckysolo/svgchord-php/master/assets/Cmaj.svg">
 
 ## Full barred chord
 The create full barred chord you must user the f parameter for finger, an examle :
