@@ -37,7 +37,7 @@ The finger parameter only accept :
  * h = half barred (not yet implemented)
  * f = full barred
 
-![Cmaj](assets/Cmaj.svg)
+![Cmaj](<img src="assets/Cmaj.svg">)
 
 ## Full barred chord
 The create full barred chord you must user the f parameter for finger, an examle :
