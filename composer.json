@@ -1,0 +1,26 @@
+{
+	"name" : "franckysolo/svgchord-php",
+	"description" : "Drawing SVG guitar chords with PHP",
+	"license" : "CC BY-SA 3.0",
+	"authors" : [{
+			"name" : "franckysolo",
+			"email" : "franckysolo@gmail.com",
+			"homepage" : "http://franckysolo-productions.com",
+			"role" : "Developer"
+		}
+	],
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/franckysolo/svgchord-php.git"
+	},
+	"minimum-stability" : "dev",
+	"require" : {
+		"php" : ">=5.4.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Svgchord\\" : "src/Svgchord/",
+			"tests\\" : "tests/"
+		}
+	}
+}
